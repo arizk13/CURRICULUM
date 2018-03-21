@@ -1,0 +1,270 @@
+doctype html
+html
+  head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  title Curriculum
+  link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+  link(rel='stylesheet', href='stylesheets/font-awesome.css')
+  link(rel='stylesheet', href='stylesheets/animate.css')
+  link(href='stylesheets/style.css', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic', rel='stylesheet', type='text/css')
+  link(href='https://fonts.googleapis.com/css?family=Playball', rel='stylesheet', type='text/css')
+
+  body
+    block content
+    #wrapper.wrapper
+      header
+        #banner.banner.row
+          .parallax.text-center(style='background-image: url(images/sistemas.jpg);')
+            .parallax-pattern-overlay
+              .container.text-center(style='height:600px;padding-top:170px;')
+                a(href='#')
+                  img#site-title.wow.fadeInDown(wow-data-delay='0.0s', wow-data-duration='0.9s', src='images/Imagen.jpg', alt='')
+                h2.intro
+                  a(href='#') Kenia Arizbeth Morgan Cruz
+      section#aboutus.aboutus
+        .container
+          .row
+            .col-md-6
+              .papers.text-center
+                .heading.text-center
+                  h2 Perfil Personal
+                  h3
+                    | Me considero una persona eficiente, dinámica y creativa, con facilidad de adaptación y capacidad de trabajar en equipo, en condiciones de alta presión, con iniciativa para resolver problemas y lograr las metas y objetivos trazados por la empresa.
+            .col-md-6
+              .papers.text-center
+                .heading.text-center
+                  h2 Objetivo Profecional
+                  h3
+                    | Poner en práctica todos los conocimientos adquiridos durante mi formación universitaria y poder formar parte de un equipo de trabajo que me permita desarrollar personal y profesionalmente.
+                    | Acceder a un puesto en el área de Marketing para contribuir con mi formación y experiencia laboral, en el logro de las metas generales de la empresa.
+      section#specialties.specialties
+        .container
+          .heading.text-center
+            h2 Habilidades
+        .container
+          .row
+            .col-md-6.wow.fadeInRight(data-wow-offset='0', data-wow-delay='0.3s')
+              .skill
+                .progress-wrap
+                  h3 HTML
+                  .progress
+                    .progress-bar.color1(role='progressbar ', aria-valuenow='40 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 85% ')
+                      span.bar-width 85%
+                .progress-wrap
+                  h3 JAVA
+                  .progress
+                    .progress-bar.color2(role='progressbar ', aria-valuenow='20 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 95% ')
+                      span.bar-width 95%
+                .progress-wrap
+                  h3 CSS
+                  .progress
+                    .progress-bar.color3(role='progressbar ', aria-valuenow='60 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 80% ')
+                      span.bar-width 80%
+            .col-md-6.wow.fadeInRight(data-wow-offset='0 ', data-wow-delay='0.6s ')
+                  .progress-wrap
+                  h3 VISUAL BASIC .NET
+                  .progress
+                    .progress-bar.color4(role='progressbar ', aria-valuenow='70 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 70% ')
+                      span.bar-width 70%
+                  .progress-wrap
+                  h3 MYSQL
+                  .progress
+                    .progress-bar.color1(role='progressbar ', aria-valuenow='90 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 90% ')
+                      span.bar-width 90%
+                  .progress-wrap
+                  h3 INGLES
+                  .progress
+                    .progress-bar.color3(role='progressbar ', aria-valuenow='85 ', aria-valuemin='0 ', aria-valuemax='100 ', style='width: 85% ')
+                      span.bar-width 85%
+      section#gallery.gallery
+        .container
+          .heading.text-center
+            h2 Portfolio
+            h3 Actividades realizadas
+          #grid-gallery.grid-gallery
+            section.grid-wrap
+              ul.grid
+                li.grid-sizer
+                li
+                  figure
+                    img(src='images/work/musica.png', alt='')
+                    figcaption
+                      h3 Pagina reponsiva
+                      p Aplicacion web responsiva
+                li
+                  figure
+                    img(src='images/work/app.png', alt='')
+                    figcaption
+                      h3 Apprendiendo
+                      p Aplicación dinamica bilingüe
+                li
+                  figure
+                    img(src='images/work/tec.png', alt='')
+                    figcaption
+                      h3 tecnologia
+                      p Sitio realizado en el aula
+                li
+                  figure
+                    img(src='images/work/pacman.png', alt='')
+                    figcaption
+                      h3 pac-man
+                      p Actividad creada para la materia de inteligencia artifical 
+                li
+                  figure
+                    img(src='images/work/carro.png', alt='')
+                    figcaption
+                      h3 Pagina reponsiva
+                      p Aplicacion web responsiva
+                li
+                  figure
+                    img(src='images/work/bon.png', alt='')
+                    figcaption
+                      h3 Video Juego
+                      p Video juego creado para la materia de automatas
+            section.slideshow
+              ul
+                li
+                  figure
+                    img(src='images/work/musica.png', alt='')
+                li
+                  figure
+                    img(src='images/work/app.png', alt='')
+                li
+                  figure
+                    img(src='images/work/tec.png', alt='')
+                li
+                  figure
+                    img(src='images/work/pacman.png', alt='')
+                li
+                  figure
+                    img(src='images/work/carro.png', alt='')
+                li
+                  figure
+                    img(src='images/work/bon.png', alt='')
+              nav
+                span.icon.nav-prev
+                span.icon.nav-next
+                span.icon.nav-close
+      section#feedback.feedback
+        .container
+          .heading
+            h2 Educación
+        .container
+          .col-md-4.wow.fadeInRight(data-wow-offset='0', data-wow-delay='0.3s')
+            .text-center
+              .hi-icon-wrap.hi-icon-effect
+                h4 Colegio de Bachilleres del Estado de Veracruz
+                h5 AGO 2011 - AGO 2014
+                i.fa.fa-laptop
+                p Area de Humanidades con capacitacion de Informatica
+          .col-md-4.wow.fadeInRight(data-wow-offset='0', data-wow-delay='0.6s')
+            .text-center
+              .hi-icon-wrap.hi-icon-effect
+                h4 Instituto Tecnologico Superior de Acayucan
+                h5 AGO 2014 - ENE 2019
+                i.fa.fa-laptop
+                p Carrera de Ingenieria Sistemas Computacionales
+          .col-md-4.wow.fadeInRight(data-wow-offset='0', data-wow-delay='0.9s')
+            .text-center
+              .hi-icon-wrap.hi-icon-effect
+                h4 Ingles
+                h5 AGO 2017 - ENE 2018
+                i.fa.fa-book
+                p Curso de ingles intensivo con un nivel A2
+      section#contact.contact
+        .container
+          .heading
+            h2 Contacto
+        .container
+          .row
+            .col-md-7
+              .map
+                #google-map(data-latitude='17.969559', data-longitude='-94.701338')
+            .contact-info
+              .col-md-5
+                h4 Información
+                ul
+                  li
+                    i.fa.fa-home.fa-2x
+                    |  11 de diciembre #302, Col. Rafael Murillo Vidal C.P. 96250
+                  li
+                    i.fa.fa-phone.fa-2x
+                    |  922 198 48 35
+                  li
+                    i.fa.fa-phone.fa-2x
+                    |  922 264 44 76
+                  li
+                    i.fa.fa-envelope.fa-2x
+                    |   k130806@hotmail.com
+      section#footer.footer
+        p.text-center
+          a.gototop(href='#wrapper')
+            i.fa.fa-angle-double-up.fa-2x
+        .container
+          ul
+            li
+              a(href='https://twitter.com/ArizbethMorgan')
+                i.fa.fa-twitter
+            li
+              a(href='https://www.facebook.com/kenias.morgancrusz')
+                i.fa.fa-facebook
+          p © Ing. Kenia Arizbeth Morgan Cruz
+    script(src='javascripts/jquery.js')
+    script(src='javascripts/modernizr.js')
+    script(src='javascripts/bootstrap.min.js')
+    script(src='javascripts/menustick.js')
+    script(src='javascripts/parallax.js')
+    script(src='javascripts/easing.js')
+    script(src='javascripts/wow.js')
+    script(src='javascripts/smoothscroll.js')
+    script(src='javascripts/masonry.js')
+    script(src='javascripts/imgloaded.js')
+    script(src='javascripts/classie.js')
+    script(src='javascripts/colorfinder.js')
+    script(src='javascripts/gridscroll.js')
+    script(src='javascripts/contact.js')
+    script(src='javascripts/common.js')
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY')
+    script.
+      wow = new WOW({}).init();
+    script(type='text/javascript').
+      jQuery(function($) {
+      $(document).ready(function() {
+      //enabling stickUp on the '.navbar-wrapper' class
+      $('.navbar-wrapper').stickUp({
+      parts: {
+      0: 'banner',
+      1: 'aboutus',
+      2: 'specialties',
+      3: 'gallery',
+      4: 'feedback',
+      5: 'contact'
+      },
+      itemClass: 'menuItem',
+      itemHover: 'active',
+      topMargin: 'auto'
+      });
+      });
+      //- //Google Map
+      var get_latitude = $('#google-map').data('latitude');
+      var get_longitude = $('#google-map').data('longitude');
+      function initialize_google_map() {
+      var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+      var mapOptions = {
+      zoom: 14,
+      scrollwheel: false,
+      center: myLatlng
+      };
+      var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+      var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map
+      });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize_google_map);
+      });
+    script(src='contactform/contactform.js')
